@@ -1,0 +1,43 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(138, 153, 149);
+    border-color: rgb(138, 153, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    margin: 0px;
+}
+
+h1.style {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    font-size: larger;
+    border-style: double;
+}
+
+input.button {
+    font-family: monospace;
+    background-color: #e2dcd8 ;
+}
+
